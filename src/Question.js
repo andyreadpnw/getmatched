@@ -1,15 +1,27 @@
 import React, { Component } from "react";
 
 class Question extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      scoringData: {},
+      isLoaded: false,
+    };
+  }
+
+  handleNewUserSubmit = () => {
+    console.log("hi");
+  };
+
   render() {
-    if (this.props.data) {
-      var rn = this.props.data.question1.thinking.rn;
-    }
+    let questionText = this.props.question1.thinking.text;
+    let rn = this.props.data.question1.thinking.rn;
+    console.log(this.props.data);
     return (
       <section id="about">
         <div className="row">
-          <span>{rn}
-          </span>
+          <button onClick={() => this.handleNewUserSubmit()}></button>
+          <span>{rn}</span>
         </div>
       </section>
     );

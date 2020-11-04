@@ -11,7 +11,8 @@
         "medass": "100",
         "medadmin": "100",
         "healthinfo": "100",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "What describes you best?"
       },
       "in": {
         "rn": "100",
@@ -23,7 +24,8 @@
         "medass": "-500",
         "medadmin": "-500",
         "healthinfo": "-500",
-        "healthsci": "-500"
+        "healthsci": "-500",
+        "text": "What describes you best?"
       },
       "am": {
         "rn": "-100",
@@ -35,7 +37,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What describes you best?"
       },
       "support": {
         "rn": "-500",
@@ -47,7 +50,8 @@
         "medass": "500",
         "medadmin": "500",
         "healthinfo": "500",
-        "healthsci": "500"
+        "healthsci": "500",
+        "text": "What describes you best?"
       }
     },
     "question2": {
@@ -61,7 +65,8 @@
         "medass": "200",
         "medadmin": "200",
         "healthinfo": "200",
-        "healthsci": "200"
+        "healthsci": "200",
+        "text": "When do you want to start school?"
       },
       "4-6": {
         "rn": "150",
@@ -73,7 +78,8 @@
         "medass": "150",
         "medadmin": "150",
         "healthinfo": "150",
-        "healthsci": "150"
+        "healthsci": "150",
+        "text": "When do you want to start school?"
       },
       "7-12": {
         "rn": "100",
@@ -85,7 +91,8 @@
         "medass": "100",
         "medadmin": "100",
         "healthinfo": "100",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "When do you want to start school?"
       },
       "1+": {
         "rn": "50",
@@ -97,7 +104,8 @@
         "medass": "50",
         "medadmin": "50",
         "healthinfo": "50",
-        "healthsci": "50"
+        "healthsci": "50",
+        "text": "When do you want to start school?"
       }
     },
     "question3": {
@@ -111,7 +119,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What degree do you have or are currently pursuing?"
       },
       "bsn": {
         "rn": "-1000",
@@ -123,7 +132,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What degree do you have or are currently pursuing?"
       },
       "msn": {
         "rn": "-1000",
@@ -135,7 +145,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What degree do you have or are currently pursuing?"
       },
       "np": {
         "rn": "-1000",
@@ -147,7 +158,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What degree do you have or are currently pursuing?"
       },
       "none": {
         "rn": "500",
@@ -159,7 +171,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What degree do you have or are currently pursuing?"
       }
     },
     "question3a": {
@@ -173,7 +186,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What is your highest completed education?"
       },
       "hs": {
         "rn": "0",
@@ -185,7 +199,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What is your highest completed education?"
       },
       "college": {
         "rn": "0",
@@ -197,7 +212,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What is your highest completed education?"
       }
     },
     "question4": {
@@ -211,7 +227,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "Do you have an RN?"
       },
       "no": {
         "rn": "0",
@@ -223,7 +240,8 @@
         "medass": "500",
         "medadmin": "500",
         "healthinfo": "500",
-        "healthsci": "500"
+        "healthsci": "500",
+        "text": "Do you have an RN?"
       }
     },
     "question5": {
@@ -237,7 +255,8 @@
         "medass": "500",
         "medadmin": "500",
         "healthinfo": "500",
-        "healthsci": "500"
+        "healthsci": "500",
+        "text": "How long can you commit to school?"
       },
       "12-18": {
         "rn": "0",
@@ -249,7 +268,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "How long can you commit to school?"
       },
       "18-2": {
         "rn": "0",
@@ -261,7 +281,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "How long can you commit to school?"
       },
       "2-4": {
         "rn": "0",
@@ -273,7 +294,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "How long can you commit to school?"
       }
     },
     "question5a": {
@@ -287,7 +309,8 @@
         "medass": "-100",
         "medadmin": "100",
         "healthinfo": "-100",
-        "healthsci": "-100"
+        "healthsci": "-100",
+        "text": "How long can you commit to school?"
       },
       "8-12": {
         "rn": "0",
@@ -299,7 +322,8 @@
         "medass": "-100",
         "medadmin": "100",
         "healthinfo": "-100",
-        "healthsci": "-100"
+        "healthsci": "-100",
+        "text": "How long can you commit to school?"
       },
       "13-18": {
         "rn": "0",
@@ -311,7 +335,8 @@
         "medass": "100",
         "medadmin": "100",
         "healthinfo": "100",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "How long can you commit to school?"
       },
       "18+": {
         "rn": "0",
@@ -323,7 +348,8 @@
         "medass": "100",
         "medadmin": "100",
         "healthinfo": "100",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "How long can you commit to school?"
       }
     },
     "question6": {
@@ -337,7 +363,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "100",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "What are you good at?"
       },
       "tech": {
         "rn": "0",
@@ -349,7 +376,8 @@
         "medass": "0",
         "medadmin": "100",
         "healthinfo": "100",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "What are you good at?"
       },
       "communicator": {
         "rn": "0",
@@ -361,7 +389,8 @@
         "medass": "100",
         "medadmin": "100",
         "healthinfo": "0",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "What are you good at?"
       },
       "calm": {
         "rn": "0",
@@ -373,7 +402,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "100",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What are you good at?"
       }
     },
     "question7": {
@@ -387,7 +417,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "100",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What areas of work do you enjoy most?"
       },
       "family": {
         "rn": "0",
@@ -399,7 +430,8 @@
         "medass": "100",
         "medadmin": "0",
         "healthinfo": "0",
-        "healthsci": "0"
+        "healthsci": "0",
+        "text": "What areas of work do you enjoy most?"
       },
       "research": {
         "rn": "0",
@@ -411,7 +443,8 @@
         "medass": "0",
         "medadmin": "0",
         "healthinfo": "200",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "What areas of work do you enjoy most?"
       },
       "patient": {
         "rn": "0",
@@ -423,7 +456,8 @@
         "medass": "100",
         "medadmin": "0",
         "healthinfo": "100",
-        "healthsci": "100"
+        "healthsci": "100",
+        "text": "What areas of work do you enjoy most?"
       }
     }
   }

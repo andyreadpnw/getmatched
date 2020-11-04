@@ -1,45 +1,38 @@
 import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import logo from "./logo.svg";
 import "./App.css";
 import Question from "./Question";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       foo: "bar",
       scoringData: {},
-      isLoaded: false
+      isLoaded: false,
     };
   }
 
-  getScoringData() {
-    fetch("https://raw.githubusercontent.com/andyreadpnw/getmatched/main/public/scoringData.json")
-    .then(res => res.json())
-    .then(
-      (data) => {
-        this.setState({
-          isLoaded: true,
-          scoringData: data
-        });
-      },
-      (error) => {
-        this.setState({
-          isLoaded: true,
-          error
-        });
-      }
-    )
-  }
-
-  componentDidMount() {
-    this.getScoringData();
+  async componentDidMount() {
+    const response = await fetch(
+      "https://raw.githubusercontent.com/andyreadpnw/getmatched/main/public/scoringData.json"
+    );
+    const json = await response.json();
+    this.setState({
+      scoringData: json,
+      isLoaded: true,
+    });
+    console.log(this.state.scoringData);
+    console.log(this.state.isLoaded);
   }
 
   render() {
+    const dataLoaded = this.state.isLoaded;
+    console.log(dataLoaded);
     return (
       <div className="Question">
-        <Question data={this.state.scoringData.main} />
+        {dataLoaded && <Question data={this.state.scoringData.main} />}
       </div>
     );
   }
