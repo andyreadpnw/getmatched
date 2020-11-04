@@ -8,7 +8,6 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      foo: "bar",
       scoringData: {},
       isLoaded: false,
     };
