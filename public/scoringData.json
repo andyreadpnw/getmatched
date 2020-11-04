@@ -1,4 +1,5 @@
 {
+  "main": {
     "question1": {
       "thinking": {
         "rn": "100",
@@ -26,30 +27,30 @@
       }
     },
     "question2": {
-        "1to3": {
-          "rn": "200",
-          "bsn": "200",
-          "msn": "200",
-          "np": "200",
-          "dnp": "200",
-          "mc": "200",
-          "medass": "200",
-          "medmin": "200",
-          "healthinfo": "200",
-          "healthsci": "200"
-        },
-        "4-6": {
-          "rn": "150",
-          "bsn": "150",
-          "msn": "150",
-          "np": "150",
-          "dnp": "150",
-          "mc": "150",
-          "medass": "150",
-          "medmin": "150",
-          "healthinfo": "150",
-          "healthsci": "150"
-        }
+      "1to3": {
+        "rn": "200",
+        "bsn": "200",
+        "msn": "200",
+        "np": "200",
+        "dnp": "200",
+        "mc": "200",
+        "medass": "200",
+        "medmin": "200",
+        "healthinfo": "200",
+        "healthsci": "200"
+      },
+      "4-6": {
+        "rn": "150",
+        "bsn": "150",
+        "msn": "150",
+        "np": "150",
+        "dnp": "150",
+        "mc": "150",
+        "medass": "150",
+        "medmin": "150",
+        "healthinfo": "150",
+        "healthsci": "150"
       }
     }
-    
+  }
+}

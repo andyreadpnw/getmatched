@@ -9,29 +9,27 @@ class App extends Component {
     this.state = {
       foo: "bar",
       scoringData: {},
-      isLoaded: false,
+      isLoaded: false
     };
   }
 
   getScoringData() {
-    fetch(
-      "https://raw.githubusercontent.com/andyreadpnw/getmatched/main/public/scoringData.json"
+    fetch("https://raw.githubusercontent.com/andyreadpnw/getmatched/main/public/scoringData.json")
+    .then(res => res.json())
+    .then(
+      (data) => {
+        this.setState({
+          isLoaded: true,
+          scoringData: data
+        });
+      },
+      (error) => {
+        this.setState({
+          isLoaded: true,
+          error
+        });
+      }
     )
-      .then((res) => res.json())
-      .then(
-        (data) => {
-          this.setState({
-            isLoaded: true,
-            scoringData: data,
-          });
-        },
-        (error) => {
-          this.setState({
-            isLoaded: true,
-            error,
-          });
-        }
-      );
   }
 
   componentDidMount() {
@@ -41,7 +39,7 @@ class App extends Component {
   render() {
     return (
       <div className="Question">
-        <Question data={this.state.scoringData.question1} />
+        <Question data={this.state.scoringData.main} />
       </div>
     );
   }
