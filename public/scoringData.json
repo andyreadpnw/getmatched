@@ -9,7 +9,7 @@
         "dnp": "100",
         "mc": "100",
         "medass": "100",
-        "medmin": "100",
+        "medadmin": "100",
         "healthinfo": "100",
         "healthsci": "100"
       },
@@ -21,9 +21,33 @@
         "dnp": "100",
         "mc": "-500",
         "medass": "-500",
-        "medmin": "-500",
+        "medadmin": "-500",
         "healthinfo": "-500",
         "healthsci": "-500"
+      },
+      "am": {
+        "rn": "-100",
+        "bsn": "100",
+        "msn": "100",
+        "np": "100",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "support": {
+        "rn": "-500",
+        "bsn": "-500",
+        "msn": "-500",
+        "np": "-500",
+        "dnp": "-500",
+        "mc": "500",
+        "medass": "500",
+        "medadmin": "500",
+        "healthinfo": "500",
+        "healthsci": "500"
       }
     },
     "question2": {
@@ -35,7 +59,7 @@
         "dnp": "200",
         "mc": "200",
         "medass": "200",
-        "medmin": "200",
+        "medadmin": "200",
         "healthinfo": "200",
         "healthsci": "200"
       },
@@ -47,9 +71,359 @@
         "dnp": "150",
         "mc": "150",
         "medass": "150",
-        "medmin": "150",
+        "medadmin": "150",
         "healthinfo": "150",
         "healthsci": "150"
+      },
+      "7-12": {
+        "rn": "100",
+        "bsn": "100",
+        "msn": "100",
+        "np": "100",
+        "dnp": "100",
+        "mc": "100",
+        "medass": "100",
+        "medadmin": "100",
+        "healthinfo": "100",
+        "healthsci": "100"
+      },
+      "1+": {
+        "rn": "50",
+        "bsn": "50",
+        "msn": "50",
+        "np": "50",
+        "dnp": "50",
+        "mc": "50",
+        "medass": "50",
+        "medadmin": "50",
+        "healthinfo": "50",
+        "healthsci": "50"
+      }
+    },
+    "question3": {
+      "rn": {
+        "rn": "-1000",
+        "bsn": "100",
+        "msn": "100",
+        "np": "100",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "bsn": {
+        "rn": "-1000",
+        "bsn": "-1000",
+        "msn": "100",
+        "np": "100",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "msn": {
+        "rn": "-1000",
+        "bsn": "-1000",
+        "msn": "-1000",
+        "np": "100",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "np": {
+        "rn": "-1000",
+        "bsn": "-1000",
+        "msn": "-1000",
+        "np": "-1000",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "none": {
+        "rn": "500",
+        "bsn": "500",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      }
+    },
+    "question3a": {
+      "somehs": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "hs": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "college": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      }
+    },
+    "question4": {
+      "yes": {
+        "rn": "-500",
+        "bsn": "100",
+        "msn": "100",
+        "np": "100",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "no": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "500",
+        "medadmin": "500",
+        "healthinfo": "500",
+        "healthsci": "500"
+      }
+    },
+    "question5": {
+      "quicker": {
+        "rn": "-500",
+        "bsn": "-500",
+        "msn": "-500",
+        "np": "-500",
+        "dnp": "-500",
+        "mc": "500",
+        "medass": "500",
+        "medadmin": "500",
+        "healthinfo": "500",
+        "healthsci": "500"
+      },
+      "12-18": {
+        "rn": "0",
+        "bsn": "-500",
+        "msn": "-500",
+        "np": "-500",
+        "dnp": "-500",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "18-2": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "2-4": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      }
+    },
+    "question5a": {
+      "6-8": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "100",
+        "medass": "-100",
+        "medadmin": "100",
+        "healthinfo": "-100",
+        "healthsci": "-100"
+      },
+      "8-12": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "100",
+        "medass": "-100",
+        "medadmin": "100",
+        "healthinfo": "-100",
+        "healthsci": "-100"
+      },
+      "13-18": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "100",
+        "medadmin": "100",
+        "healthinfo": "100",
+        "healthsci": "100"
+      },
+      "18+": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "100",
+        "medadmin": "100",
+        "healthinfo": "100",
+        "healthsci": "100"
+      }
+    },
+    "question6": {
+      "leader": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "100",
+        "np": "100",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "100",
+        "healthsci": "100"
+      },
+      "tech": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "100",
+        "np": "0",
+        "dnp": "100",
+        "mc": "100",
+        "medass": "0",
+        "medadmin": "100",
+        "healthinfo": "100",
+        "healthsci": "100"
+      },
+      "communicator": {
+        "rn": "0",
+        "bsn": "100",
+        "msn": "100",
+        "np": "100",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "100",
+        "medadmin": "100",
+        "healthinfo": "0",
+        "healthsci": "100"
+      },
+      "calm": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "0",
+        "np": "0",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "100",
+        "healthsci": "0"
+      }
+    },
+    "question7": {
+      "education": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "100",
+        "np": "0",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "100",
+        "healthsci": "0"
+      },
+      "family": {
+        "rn": "0",
+        "bsn": "100",
+        "msn": "100",
+        "np": "100",
+        "dnp": "0",
+        "mc": "0",
+        "medass": "100",
+        "medadmin": "0",
+        "healthinfo": "0",
+        "healthsci": "0"
+      },
+      "research": {
+        "rn": "0",
+        "bsn": "0",
+        "msn": "100",
+        "np": "0",
+        "dnp": "100",
+        "mc": "100",
+        "medass": "0",
+        "medadmin": "0",
+        "healthinfo": "200",
+        "healthsci": "100"
+      },
+      "patient": {
+        "rn": "0",
+        "bsn": "100",
+        "msn": "100",
+        "np": "100",
+        "dnp": "100",
+        "mc": "0",
+        "medass": "100",
+        "medadmin": "0",
+        "healthinfo": "100",
+        "healthsci": "100"
       }
     }
   }
