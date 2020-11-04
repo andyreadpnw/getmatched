@@ -14,7 +14,7 @@ class Question extends Component {
   };
 
   render() {
-    let questionText = this.props.data.question1.answer1.text;
+    let questionText = this.props.data.question1.answer1.questiontext;
     console.log(questionText);
     let rn = this.props.data.question1.answer1.rn;
     console.log(this.props.data);
