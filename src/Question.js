@@ -14,9 +14,9 @@ class Question extends Component {
   };
 
   render() {
-    let questionText = this.props.data.question1.1.text;
+    let questionText = this.props.data.question1.answer1.text;
     console.log(questionText);
-    let rn = this.props.data.question1.thinking.rn;
+    let rn = this.props.data.question1.answer1.rn;
     console.log(this.props.data);
     return (
       <section id="about">
