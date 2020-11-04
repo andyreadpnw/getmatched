@@ -1,7 +1,7 @@
 {
   "main": {
     "question1": {
-      "thinking": {
+      "1": {
         "rn": "100",
         "bsn": "100",
         "msn": "100",
@@ -15,7 +15,7 @@
         "questiontext": "What describes you best?",
         "answertext": "Im thinking about nursing school"
       },
-      "in": {
+      "2": {
         "rn": "100",
         "bsn": "100",
         "msn": "100",
@@ -29,7 +29,7 @@
         "questiontext": "What describes you best?",
         "answertext": "Im in nursing school"
       },
-      "am": {
+      "3": {
         "rn": "-100",
         "bsn": "100",
         "msn": "100",
@@ -43,7 +43,7 @@
         "questiontext": "What describes you best?",
         "answertext": "Im a nurse"
       },
-      "support": {
+      "4": {
         "rn": "-500",
         "bsn": "-500",
         "msn": "-500",
@@ -59,7 +59,7 @@
       }
     },
     "question2": {
-      "1to3": {
+      "1": {
         "rn": "200",
         "bsn": "200",
         "msn": "200",
@@ -73,7 +73,7 @@
         "questiontext": "When do you want to start school?",
         "answertext": "1-3 Months"
       },
-      "4-6": {
+      "2": {
         "rn": "150",
         "bsn": "150",
         "msn": "150",
@@ -87,7 +87,7 @@
         "questiontext": "When do you want to start school?",
         "answertext": "4-6 Months"
       },
-      "7-12": {
+      "3": {
         "rn": "100",
         "bsn": "100",
         "msn": "100",
@@ -101,7 +101,7 @@
         "questiontext": "When do you want to start school?",
         "answertext": "7-12 Months"
       },
-      "1+": {
+      "4": {
         "rn": "50",
         "bsn": "50",
         "msn": "50",
@@ -117,7 +117,7 @@
       }
     },
     "question3": {
-      "rn": {
+      "1": {
         "rn": "-1000",
         "bsn": "100",
         "msn": "100",
@@ -131,7 +131,7 @@
         "questiontext": "What degree do you have or are currently pursuing?",
         "answertext": "RN"
       },
-      "bsn": {
+      "2": {
         "rn": "-1000",
         "bsn": "-1000",
         "msn": "100",
@@ -145,7 +145,7 @@
         "questiontext": "What degree do you have or are currently pursuing?",
         "answertext": "BSN"
       },
-      "msn": {
+      "3": {
         "rn": "-1000",
         "bsn": "-1000",
         "msn": "-1000",
@@ -159,7 +159,7 @@
         "questiontext": "What degree do you have or are currently pursuing?",
         "answertext": "MSN"
       },
-      "np": {
+      "4": {
         "rn": "-1000",
         "bsn": "-1000",
         "msn": "-1000",
@@ -173,7 +173,7 @@
         "questiontext": "What degree do you have or are currently pursuing?",
         "answertext": "NP"
       },
-      "none": {
+      "5": {
         "rn": "500",
         "bsn": "500",
         "msn": "0",
@@ -189,7 +189,7 @@
       }
     },
     "question3a": {
-      "somehs": {
+      "1": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -203,7 +203,7 @@
         "questiontext": "What is your highest completed education?",
         "answertext": "Some high school"
       },
-      "hs": {
+      "2": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -217,7 +217,7 @@
         "questiontext": "What is your highest completed education?",
         "answertext": "High school graduate"
       },
-      "college": {
+      "3": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -233,7 +233,7 @@
       }
     },
     "question4": {
-      "yes": {
+      "1": {
         "rn": "-500",
         "bsn": "100",
         "msn": "100",
@@ -247,7 +247,7 @@
         "questiontext": "Do you have an RN?",
         "answertext": "Yes"
       },
-      "no": {
+      "2": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -263,7 +263,7 @@
       }
     },
     "question5": {
-      "quicker": {
+      "1": {
         "rn": "-500",
         "bsn": "-500",
         "msn": "-500",
@@ -277,7 +277,7 @@
         "questiontext": "How long can you commit to school?",
         "answertext": "I'm interested in nursing, but I would lie to test the waters with a quicker-entry degree before committing to the field."
       },
-      "12-18": {
+      "2": {
         "rn": "0",
         "bsn": "-500",
         "msn": "-500",
@@ -291,7 +291,7 @@
         "questiontext": "How long can you commit to school?",
         "answertext": "12 months - 18 months"
       },
-      "18-2": {
+      "3": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -305,7 +305,7 @@
         "questiontext": "How long can you commit to school?",
         "answertext": "18 months - 2 years"
       },
-      "2-4": {
+      "4": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -321,7 +321,7 @@
       }
     },
     "question5a": {
-      "6-8": {
+      "1": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -335,7 +335,7 @@
         "questiontext": "How long can you commit to school?",
         "answertext": "6-8 months"
       },
-      "8-12": {
+      "2": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -349,7 +349,7 @@
         "questiontext": "How long can you commit to school?",
         "answertext": "8-12 months"
       },
-      "13-18": {
+      "3": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -363,7 +363,7 @@
         "questiontext": "How long can you commit to school?",
         "answertext": "13-18 months"
       },
-      "18+": {
+      "4": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -379,7 +379,7 @@
       }
     },
     "question6": {
-      "leader": {
+      "1": {
         "rn": "0",
         "bsn": "0",
         "msn": "100",
@@ -393,7 +393,7 @@
         "questiontext": "What are you good at?",
         "answertext": "Strong Leader"
       },
-      "tech": {
+      "2": {
         "rn": "0",
         "bsn": "0",
         "msn": "100",
@@ -407,7 +407,7 @@
         "questiontext": "What are you good at?",
         "answertext": "Tech Savvy"
       },
-      "communicator": {
+      "3": {
         "rn": "0",
         "bsn": "100",
         "msn": "100",
@@ -421,7 +421,7 @@
         "questiontext": "What are you good at?",
         "answertext": "Good communicator"
       },
-      "calm": {
+      "4": {
         "rn": "0",
         "bsn": "0",
         "msn": "0",
@@ -437,7 +437,7 @@
       }
     },
     "question7": {
-      "education": {
+      "1": {
         "rn": "0",
         "bsn": "0",
         "msn": "100",
@@ -451,7 +451,7 @@
         "questiontext": "What areas of work do you enjoy most?",
         "answertext": "Education"
       },
-      "family": {
+      "2": {
         "rn": "0",
         "bsn": "100",
         "msn": "100",
@@ -465,7 +465,7 @@
         "questiontext": "What areas of work do you enjoy most?",
         "answertext": "Family"
       },
-      "research": {
+      "3": {
         "rn": "0",
         "bsn": "0",
         "msn": "100",
@@ -479,7 +479,7 @@
         "questiontext": "What areas of work do you enjoy most?",
         "answertext": "Research and Tech"
       },
-      "patient": {
+      "4": {
         "rn": "0",
         "bsn": "100",
         "msn": "100",
