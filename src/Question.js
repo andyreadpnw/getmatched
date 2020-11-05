@@ -25,21 +25,27 @@ export class Question extends Component {
     });
   }
 
-  handlePathSelection1 = () => {
+  handlePathSelection = (selection) => {
     let questionNumber = this.state.questionNumber;
-    switch (questionNumber) {
+    console.log(questionNumber)
+    switch (selection) {
       case "answer1":
         this.setState({ 
-          rn: this.state.scoringData.question1.answer1.rn,
-          bsn: this.state.scoringData.question1.answer1.bsn,
-          msn: this.state.scoringData.question1.answer1.msn,
-          np: this.state.scoringData.question1.answer1.np,
-          dnp: this.state.scoringData.question1.answer1.dnp,
-          medass: this.state.scoringData.question1.answer1.medass,
-          medadmin: this.state.scoringData.question1.answer1.medadmin,
-          healthinfo: this.state.scoringData.question1.answer1.healthinfo,
-          healthsci: this.state.scoringData.question1.answer1.healthsci
+          rn: this.state.rn + this.state.scoringData.question1.answer1.rn,
+          bsn: this.state.bsn + this.state.scoringData.question1.answer1.bsn,
+          msn: this.state.msn + this.state.scoringData.question1.answer1.msn,
+          np: this.state.np + this.state.scoringData.question1.answer1.np,
+          dnp: this.state.dnp + this.state.scoringData.question1.answer1.dnp,
+          medass: this.state.medass + this.state.scoringData.question1.answer1.medass,
+          medadmin: this.state.medadmin + this.state.scoringData.question1.answer1.medadmin,
+          healthinfo: this.state.healthinfo + this.state.scoringData.question1.answer1.healthinfo,
+          healthsci: this.state.healthsci + this.state.scoringData.question1.answer1.healthsci
          });
+         let questionNumber = this.state.questionNumber + 1;
+         this.setState({
+           questionNumber: questionNumber
+         })
+         console.log(this.state.bsn)
         break;
       case "answer2":
         console.log("byge");
@@ -57,20 +63,31 @@ export class Question extends Component {
   };
 
   render() {
-    let questionText1 = this.props.data.question1.answer1.questiontext;
-    let answerText1 = this.props.data.question1.answer1.answertext;
-    console.log(questionText1);
-    let rn = this.props.data.question1.answer1.rn;
-    console.log(this.props.data);
-    console.log(this.state.scoringData);
+    let questionNumber = this.state.questionNumber
+    let computedProperty = "question"+questionNumber
+    console.log(this.props['data'][computedProperty]['answer1']['questiontext'])
+    let questionText1 = this.props['data'][computedProperty]['answer1']['questiontext'];
+    let answerText1 = this.props['data'][computedProperty]['answer1']['answertext'];
+    let answerText2 = this.props['data'][computedProperty]['answer2']['answertext'];
+    let answerText3 = this.props['data'][computedProperty]['answer3']['answertext'];
+    let answerText4 = this.props['data'][computedProperty]['answer4']['answertext'];
+
     return (
       <section id="about">
         <div className="row">
           <h1>{questionText1}</h1>
-          <button onClick={() => this.handlePathSelection1()}>
+          <button onClick={() => this.handlePathSelection("answer1")}>
             {answerText1}
           </button>
-          <span>{rn}</span>
+          <button onClick={() => this.handlePathSelection("answer2")}>
+            {answerText2}
+          </button>
+          <button onClick={() => this.handlePathSelection("answer3")}>
+            {answerText3}
+          </button>
+          <button onClick={() => this.handlePathSelection("answer4")}>
+            {answerText4}
+          </button>
         </div>
       </section>
     );
