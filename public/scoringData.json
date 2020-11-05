@@ -13,7 +13,8 @@
         "healthinfo": 100,
         "healthsci": 100,
         "questiontext": "What describes you best?",
-        "answertext": "Im thinking about nursing school"
+        "answertext": "Im thinking about nursing school",
+        "questionamount": 4
       },
       "answer2": {
         "rn": 100,
@@ -27,7 +28,8 @@
         "healthinfo": -500,
         "healthsci": -500,
         "questiontext": "What describes you best?",
-        "answertext": "Im in nursing school"
+        "answertext": "Im in nursing school",
+        "questionamount": 4
       },
       "answer3": {
         "rn": -100,
@@ -41,7 +43,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What describes you best?",
-        "answertext": "Im a nurse"
+        "answertext": "Im a nurse",
+        "questionamount": 4
       },
       "answer4": {
         "rn": -500,
@@ -55,7 +58,8 @@
         "healthinfo": 500,
         "healthsci": 500,
         "questiontext": "What describes you best?",
-        "answertext": "im interested in supporting nurse roles like administration and assisting roles"
+        "answertext": "im interested in supporting nurse roles like administration and assisting roles",
+        "questionamount": 4
       }
     },
     "question2": {
@@ -71,7 +75,8 @@
         "healthinfo": 200,
         "healthsci": 200,
         "questiontext": "When do you want to start school?",
-        "answertext": "1-3 Months"
+        "answertext": "1-3 Months",
+        "questionamount": 4
       },
       "answer2": {
         "rn": 150,
@@ -85,7 +90,8 @@
         "healthinfo": 150,
         "healthsci": 150,
         "questiontext": "When do you want to start school?",
-        "answertext": "4-6 Months"
+        "answertext": "4-6 Months",
+        "questionamount": 4
       },
       "answer3": {
         "rn": 100,
@@ -99,7 +105,8 @@
         "healthinfo": 100,
         "healthsci": 100,
         "questiontext": "When do you want to start school?",
-        "answertext": "7-12 Months"
+        "answertext": "7-12 Months",
+        "questionamount": 4
       },
       "answer4": {
         "rn": 50,
@@ -113,7 +120,8 @@
         "healthinfo": 50,
         "healthsci": 50,
         "questiontext": "When do you want to start school?",
-        "answertext": "1 year+"
+        "answertext": "1 year+",
+        "questionamount": 4
       }
     },
     "question3": {
@@ -129,7 +137,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What degree do you have or are currently pursuing?",
-        "answertext": "RN"
+        "answertext": "RN",
+        "questionamount": 5
       },
       "answer2": {
         "rn": -1000,
@@ -143,7 +152,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What degree do you have or are currently pursuing?",
-        "answertext": "BSN"
+        "answertext": "BSN",
+        "questionamount": 5
       },
       "answer3": {
         "rn": -1000,
@@ -157,7 +167,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What degree do you have or are currently pursuing?",
-        "answertext": "MSN"
+        "answertext": "MSN",
+        "questionamount": 5
       },
       "answer4": {
         "rn": -1000,
@@ -171,7 +182,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What degree do you have or are currently pursuing?",
-        "answertext": "NP"
+        "answertext": "NP",
+        "questionamount": 5
       },
       "answer5": {
         "rn": 500,
@@ -185,7 +197,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What degree do you have or are currently pursuing?",
-        "answertext": "None of the above"
+        "answertext": "None of the above",
+        "questionamount": 5
       }
     },
     "question3a": {
@@ -201,7 +214,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What is your highest completed education?",
-        "answertext": "Some high school"
+        "answertext": "Some high school",
+        "questionamount": 3
       },
       "answer2": {
         "rn": 0,
@@ -215,7 +229,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What is your highest completed education?",
-        "answertext": "High school graduate"
+        "answertext": "High school graduate",
+        "questionamount": 3
       },
       "answer3": {
         "rn": 0,
@@ -229,7 +244,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What is your highest completed education?",
-        "answertext":"College"
+        "answertext":"College",
+        "questionamount": 3
       }
     },
     "question4": {
@@ -245,7 +261,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "Do you have an RN?",
-        "answertext": "Yes"
+        "answertext": "Yes",
+        "questionamount": 2
       },
       "answer2": {
         "rn": 0,
@@ -259,11 +276,12 @@
         "healthinfo": 500,
         "healthsci": 500,
         "questiontext": "Do you have an RN?",
-        "answertext": "No"
+        "answertext": "No",
+        "questionamount": 2
       }
     },
     "question5": {
-      "answer3": {
+      "answer1": {
         "rn": -500,
         "bsn": -500,
         "msn": -500,
@@ -275,9 +293,10 @@
         "healthinfo": 500,
         "healthsci": 500,
         "questiontext": "How long can you commit to school?",
-        "answertext": "I'm interested in nursing, but I would lie to test the waters with a quicker-entry degree before committing to the field."
+        "answertext": "I'm interested in nursing, but I would lie to test the waters with a quicker-entry degree before committing to the field.",
+        "questionamount": 4
       },
-      "answer4": {
+      "answer2": {
         "rn": 0,
         "bsn": -500,
         "msn": -500,
@@ -289,9 +308,10 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "How long can you commit to school?",
-        "answertext": "12 months - 18 months"
+        "answertext": "12 months - 18 months",
+        "questionamount": 4
       },
-      "answer5": {
+      "answer3": {
         "rn": 0,
         "bsn": 0,
         "msn": 0,
@@ -303,9 +323,10 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "How long can you commit to school?",
-        "answertext": "18 months - 2 years"
+        "answertext": "18 months - 2 years",
+        "questionamount": 4
       },
-      "answer6": {
+      "answer4": {
         "rn": 0,
         "bsn": 0,
         "msn": 0,
@@ -317,7 +338,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "How long can you commit to school?",
-        "answertext": "2 - 4 Years"
+        "answertext": "2 - 4 Years",
+        "questionamount": 4
       }
     },
     "question5a": {
@@ -333,7 +355,8 @@
         "healthinfo": -100,
         "healthsci": -100,
         "questiontext": "How long can you commit to school?",
-        "answertext": "6-8 months"
+        "answertext": "6-8 months",
+        "questionamount": 4
       },
       "answer2": {
         "rn": 0,
@@ -347,7 +370,8 @@
         "healthinfo": -100,
         "healthsci": -100,
         "questiontext": "How long can you commit to school?",
-        "answertext": "8-12 months"
+        "answertext": "8-12 months",
+        "questionamount": 4
       },
       "answer3": {
         "rn": 0,
@@ -361,7 +385,8 @@
         "healthinfo": 100,
         "healthsci": 100,
         "questiontext": "How long can you commit to school?",
-        "answertext": "13-18 months"
+        "answertext": "13-18 months",
+        "questionamount": 4
       },
       "answer4": {
         "rn": 0,
@@ -375,7 +400,8 @@
         "healthinfo": 100,
         "healthsci": 100,
         "questiontext": "How long can you commit to school?",
-        "answertext": "18 months+"
+        "answertext": "18 months+",
+        "questionamount": 4
       }
     },
     "question6": {
@@ -391,7 +417,8 @@
         "healthinfo": 100,
         "healthsci": 100,
         "questiontext": "What are you good at?",
-        "answertext": "Strong Leader"
+        "answertext": "Strong Leader",
+        "questionamount": 4
       },
       "answer2": {
         "rn": 0,
@@ -405,7 +432,8 @@
         "healthinfo": 100,
         "healthsci": 100,
         "questiontext": "What are you good at?",
-        "answertext": "Tech Savvy"
+        "answertext": "Tech Savvy",
+        "questionamount": 4
       },
       "answer3": {
         "rn": 0,
@@ -419,7 +447,8 @@
         "healthinfo": 0,
         "healthsci": 100,
         "questiontext": "What are you good at?",
-        "answertext": "Good communicator"
+        "answertext": "Good communicator",
+        "questionamount": 4
       },
       "answer4": {
         "rn": 0,
@@ -433,7 +462,8 @@
         "healthinfo": 100,
         "healthsci": 0,
         "questiontext": "What are you good at?",
-        "answertext": "Calm under pressure"
+        "answertext": "Calm under pressure",
+        "questionamount": 4
       }
     },
     "question7": {
@@ -449,7 +479,8 @@
         "healthinfo": 100,
         "healthsci": 0,
         "questiontext": "What areas of work do you enjoy most?",
-        "answertext": "Education"
+        "answertext": "Education",
+        "questionamount": 4
       },
       "answer2": {
         "rn": 0,
@@ -463,7 +494,8 @@
         "healthinfo": 0,
         "healthsci": 0,
         "questiontext": "What areas of work do you enjoy most?",
-        "answertext": "Family"
+        "answertext": "Family",
+        "questionamount": 4
       },
       "answer3": {
         "rn": 0,
@@ -477,7 +509,8 @@
         "healthinfo": 200,
         "healthsci": 100,
         "questiontext": "What areas of work do you enjoy most?",
-        "answertext": "Research and Tech"
+        "answertext": "Research and Tech",
+        "questionamount": 4
       },
       "answer4": {
         "rn": 0,
@@ -491,7 +524,8 @@
         "healthinfo": 100,
         "healthsci": 100,
         "questiontext": "What areas of work do you enjoy most?",
-        "answertext": "Patient Care"
+        "answertext": "Patient Care",
+        "questionamount": 4
       }
     }
   }
