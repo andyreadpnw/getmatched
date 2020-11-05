@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import logo from "./logo.svg";
 import "./App.css";
 import Question from "./Question";
 
@@ -8,7 +6,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      scoringData: {},
+      data: {},
       isLoaded: false,
     };
   }
@@ -18,11 +16,12 @@ class App extends Component {
       "https://raw.githubusercontent.com/andyreadpnw/getmatched/main/public/scoringData.json"
     );
     const json = await response.json();
+    console.log(json)
     this.setState({
-      scoringData: json,
+      data: json,
       isLoaded: true,
     });
-    console.log(this.state.scoringData);
+    console.log(this.state.data);
     console.log(this.state.isLoaded);
   }
 
@@ -31,7 +30,7 @@ class App extends Component {
     console.log(dataLoaded);
     return (
       <div className="Question">
-        {dataLoaded && <Question data={this.state.scoringData.main} />}
+        {dataLoaded && <Question data={this.state.data.main} />}
       </div>
     );
   }
