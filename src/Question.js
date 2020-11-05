@@ -26,41 +26,34 @@ export class Question extends Component {
     });
   }
 
-  handlePathSelection = (selection) => {
-    let questionNumber = this.state.questionNumber;
-    console.log(questionNumber)
-    switch (selection) {
-      case "answer1":
+  handlePathSelection = (questionNumber, selection) => {
+    console.log(this.state.bsn)
+    let selectionValues = Object.values(this.state.scoringData[questionNumber][selection])
+    let rnValue = selectionValues[0];
+    let bsnValue = selectionValues[1];
+    let msnValue = selectionValues[2];
+    let npValue = selectionValues[3];
+    let dnpValue = selectionValues[4];
+    let medassValue = selectionValues[5];
+    let medadminValue = selectionValues[6];
+    let healthinfoValue = selectionValues[7];
+    let healthsciValue = selectionValues[8];
+
         this.setState({ 
-          rn: this.state.rn + this.state.scoringData.question1.answer1.rn,
-          bsn: this.state.bsn + this.state.scoringData.question1.answer1.bsn,
-          msn: this.state.msn + this.state.scoringData.question1.answer1.msn,
-          np: this.state.np + this.state.scoringData.question1.answer1.np,
-          dnp: this.state.dnp + this.state.scoringData.question1.answer1.dnp,
-          medass: this.state.medass + this.state.scoringData.question1.answer1.medass,
-          medadmin: this.state.medadmin + this.state.scoringData.question1.answer1.medadmin,
-          healthinfo: this.state.healthinfo + this.state.scoringData.question1.answer1.healthinfo,
-          healthsci: this.state.healthsci + this.state.scoringData.question1.answer1.healthsci
+          rn: this.state.rn + rnValue,
+          bsn: this.state.bsn + bsnValue,
+          msn: this.state.msn + msnValue,
+          np: this.state.np + npValue,
+          dnp: this.state.dnp + dnpValue,
+          medass: this.state.medass + medassValue,
+          medadmin: this.state.medadmin + medadminValue,
+          healthinfo: this.state.healthinfo + healthinfoValue,
+          healthsci: this.state.healthsci + healthsciValue
          });
-         let questionNumber = this.state.questionNumber + 1;
+          questionNumber = this.state.questionNumber + 1;
          this.setState({
            questionNumber: questionNumber
          })
-         console.log(this.state.bsn)
-        break;
-      case "answer2":
-        console.log("byge");
-        break;
-      case "answer3":
-        console.log("bye");
-        break;
-      case "answer4":
-        console.log("bye");
-        break;
-      case "answer5":
-        console.log("bye");
-        break;
-    }
   };
 
   render() {
@@ -80,16 +73,16 @@ export class Question extends Component {
       <section id="about">
         <div className="row">
           <h1>{questionText1}</h1>
-          <button onClick={() => this.handlePathSelection("answer1")}>
+          <button onClick={() => this.handlePathSelection(computedProperty, "answer1")}>
             {answerText1}
           </button>
-          <button onClick={() => this.handlePathSelection("answer2")}>
+          <button onClick={() => this.handlePathSelection(computedProperty,"answer2")}>
             {answerText2}
           </button>
-          <button onClick={() => this.handlePathSelection("answer3")}>
+          <button onClick={() => this.handlePathSelection(computedProperty,"answer3")}>
             {answerText3}
           </button>
-          <button onClick={() => this.handlePathSelection("answer4")}>
+          <button onClick={() => this.handlePathSelection(computedProperty,"answer4")}>
             {answerText4}
           </button>
         </div>
