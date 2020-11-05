@@ -278,6 +278,36 @@
         "questiontext": "Do you have an RN?",
         "answertext": "No",
         "questionamount": 2
+      },
+      "answer3": {
+        "rn": 0,
+        "bsn": 0,
+        "msn": 0,
+        "np": 0,
+        "dnp": 0,
+        "mc": 0,
+        "medass": 0,
+        "medadmin": 0,
+        "healthinfo": 0,
+        "healthsci": 0,
+        "questiontext": "",
+        "answertext": "",
+        "questionamount": 4
+      },
+      "answer4": {
+        "rn": 0,
+        "bsn": 0,
+        "msn": 0,
+        "np": 0,
+        "dnp": 0,
+        "mc": 0,
+        "medass": 0,
+        "medadmin": 0,
+        "healthinfo": 0,
+        "healthsci": 0,
+        "questiontext": "",
+        "answertext": "",
+        "questionamount": 4
       }
     },
     "question5": {

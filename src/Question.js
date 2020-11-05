@@ -15,6 +15,7 @@ export class Question extends Component {
       healthinfo: 0,
       healthsci: 0,
       questionNumber: 1,
+      numberQuestions: 4
     };
   }
 
@@ -65,10 +66,13 @@ export class Question extends Component {
   render() {
     let questionNumber = this.state.questionNumber
     let computedProperty = "question"+questionNumber
+    let numberAnswers = this.props['data'][computedProperty]['answer1']['questionamount']
     console.log(this.props['data'][computedProperty]['answer1']['questiontext'])
+    console.log(numberAnswers)
     let questionText1 = this.props['data'][computedProperty]['answer1']['questiontext'];
+
     let answerText1 = this.props['data'][computedProperty]['answer1']['answertext'];
-    let answerText2 = this.props['data'][computedProperty]['answer2']['answertext'];
+    let answerText2 = this.props['data'][computedProperty]['answer2']['answertext']; 
     let answerText3 = this.props['data'][computedProperty]['answer3']['answertext'];
     let answerText4 = this.props['data'][computedProperty]['answer4']['answertext'];
 
